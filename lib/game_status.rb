@@ -41,8 +41,7 @@ WIN_COMBINATIONS = [
     if !won?(board)
       nil 
     else
-      board[won?[0]]
-      binding.pry 
+      board[won?(board)[0]]
     end 
   end 
   
