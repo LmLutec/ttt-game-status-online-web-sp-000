@@ -41,7 +41,7 @@ WIN_COMBINATIONS = [
     if !won?(board)
       nil 
     else
-      board(won?[0])
+      board[won?[0]]
       puts "Congratulations #{winner}!"
     end 
   end 
